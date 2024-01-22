@@ -1,0 +1,10 @@
+#operators
+n1<-as.numeric(readline("Enter num1")) 
+n2<-as.numeric(readline("Enter num2")) 
+print(n1+n2)
+print(n1-n2)
+print(n1*n2)
+print(n1/n2)
+print(n1^n2)
+print(n1%%n2)
+print(n1%/%n2)   #i.e 15%/%2=7.5 but it will give 7(round to previous)
