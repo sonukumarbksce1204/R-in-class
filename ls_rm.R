@@ -1,6 +1,5 @@
 #ls() is used to list all variable in the program
-#rm() is used to remove variable in the program\
-#class(variable_name) is used to get the type of variable
+#rm() is used to remove variable in the program
 
 a1<-12L
 a2<-"jio"
