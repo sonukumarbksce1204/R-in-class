@@ -1,7 +1,7 @@
 #Matrix->2D Arrays
 #matrix() is used to create matrix
 #matrix(data,nrow,ncol,byrow=TRUE/FALSE,dimnames=)
-#byrow=TRUE is for cretining row wise else column wise
+#byrow=TRUE is for creating row wise else column wise
 
 a1<-matrix(c(1,2,3,4,5,6,7,8,9,10,11,12),nrow=3,ncol=4,byrow=TRUE)
 a1

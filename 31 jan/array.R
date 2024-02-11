@@ -1,12 +1,12 @@
 #Array
 #It is used to store in multidimensional 
 #array() function with 1 parameter
-#syntax: array(data)  #it takes vetors as input
+#syntax: array(data)  #it takes vectors as input
 #arr<-array(a)   #single dimension
 
-#multidimentional
+#multidimensional
 #Syntax:
-#arr<-array(vector, dim=c(rows,columns,metrix) )
+#arr<-array(vector, dim=c(rows,columns,metric) )
 
 a<-c(1,2,3,4)
 b<-c(7,8,6,9)

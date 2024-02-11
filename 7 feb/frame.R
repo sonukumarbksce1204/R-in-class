@@ -1,7 +1,7 @@
 #frame
-#data.frame() used for creatinf of frame
-#str(a) show show the details of freame
-#length(a) to find lenth of frame
+#data.frame() used for creating of frame
+#str(a) show show the details of frame
+#length(a) to find length of frame
 a<-data.frame(stud_rollno=c(1:3),
               stud_name=c("Rahul","Rehan","Rita"),
               stud_age=c(20,21,19))
@@ -47,7 +47,7 @@ subset(a,stud_rollno>2)
 subset(a,stud_rollno>2,select=-stu_name) #- is except
 subset(a,stud_roll>8,select=c(-stud_id,stud_name))
 
-#cmbine to data frames horizoltally
+#cbind to data frames horizontally
 b<-data.frame(emp_is=c(1,7,5),
               emp_name=c("manish","raj","shyam"),
               emp_sal=c(100000,83000,90000))

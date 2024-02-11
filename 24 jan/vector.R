@@ -16,7 +16,7 @@ print(a[-2])   #it remove the index 2 element and print
 print(a[6])    #it will give "NA" as (index out of range)
 
 
-#conctetation of vector
+#concatenation of vector
 
 v1<-1:5
 v2<-6:10
@@ -46,5 +46,4 @@ data1
 which(data1==6)  #which return the position of the element in the vector
 
 data1==6
-
-
+ 
