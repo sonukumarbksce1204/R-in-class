@@ -32,7 +32,7 @@ a<-a[-1:-2,]
 a
 
 #rbind() used to add more rows
-#cboid() used to add more cols
+#cbind() used to add more cols
 rbind(a,c(13,14,15,16))
 cbind(a,c(17,18,19))
 a

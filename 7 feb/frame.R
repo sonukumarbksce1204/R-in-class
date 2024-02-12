@@ -54,3 +54,11 @@ b<-data.frame(emp_is=c(1,7,5),
 b
 b<-data.frame(cust_id=c(1,7,5))
 b
+
+
+
+y<-c(3,2,5,6,70,10,12,20,10,30)
+
+print(y)
+
+which(y==10)
