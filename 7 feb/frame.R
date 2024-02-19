@@ -2,6 +2,7 @@
 #data.frame() used for creating of frame
 #str(a) show show the details of frame
 #length(a) to find length of frame
+
 a<-data.frame(stud_rollno=c(1:3),
               stud_name=c("Rahul","Rehan","Rita"),
               stud_age=c(20,21,19))
