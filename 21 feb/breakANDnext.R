@@ -82,7 +82,7 @@ while(i<10){
   i=i+1
 }
 
-
+#to iterate over letter
 x<-LETTERS[1:10]   # for upper case
 x<-letters[1:10]   # for lower case
 for(i in x){
