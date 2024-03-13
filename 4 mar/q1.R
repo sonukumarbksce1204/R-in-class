@@ -1,0 +1,9 @@
+x<-read.csv(file.choose())
+x
+x[2,3]
+x$Glucose
+x$SkinThickness
+max(a$Glucose)
+min(a$Glucose)
+mean(a$Glucose)
+median(a$Glucose)
