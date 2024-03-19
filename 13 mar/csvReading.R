@@ -96,10 +96,8 @@ sd(a$id)
 
 
 
-
-
 print(a[,1])
-print(a[,1:3])
+print(a[,c(1,3)])
 print(a[,3])
 print(a[,5:7])
 print(a[20,7])
@@ -113,7 +111,9 @@ head(a$area,15)
 
 print(a[a$radius<10,])
 
-print(subset(a,,select=-(id)))
+print(subset(a,a$id>20,select=-c(smoothness,compactness)))
+
+print(subset(a,a$diagnosis_result=="M",select=-(id)))
 
 print(subset(a,a$id>80&a$id<100,select=c(id,radius,perimeter)))
 
