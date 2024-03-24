@@ -10,5 +10,8 @@ sqldf("select * from stu where name='Veer' ")
 sqldf("select name,marks from stu order by name DESC limit 3")
 
 sqldf("select * from stu where name like'k'")
-sqldf
+sqldf("select sum(marks) from stu")
+sqldf("select avg(marks) from stu")
+
+sqldf("select sum(mark")
 
