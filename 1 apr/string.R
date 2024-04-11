@@ -1,6 +1,7 @@
 #string functions(built in)
 #substr -> extract part of string 
 #substr(inputstring,start string index,end index)
+
 str<-"welcome to LPU"
 print(substr(str,4,10))
 
@@ -27,8 +28,8 @@ grep("def",a,ignore.case = TRUE)
 grep("def",a,value=F)
 grep("def",a,value=T)
 
-# (+) minimun occurence
-# (*) 0 or max occurence
+# (+) minimum occurrence
+# (*) 0 or max occurrence
 
 grep("b+",c("ab+","bda1","+ccaa","ad"),value=TRUE)
 grep("b+",c("ab+","bda1","+ccaa","ad"),value=F)
@@ -73,13 +74,12 @@ strsplit("Hello6student","[0-9]+")
 
 
 #tolower() toupper()
+
 st<-"WELCOME"
 print(str)
 print(tolower(str))
 print(toupper(str))
 print(tolower(st))
 print(toupper(st))
-
-
 
 install.packages("tidyr")
